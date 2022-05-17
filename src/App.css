@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+ul li{
+  list-style-type: none;
+}
+.container{
+  width:30%;
+  height:80px;
+  margin:5% auto;
+  background:blue;
+  color:#fff;
+  padding:15px;
+  border-radius:10px;
+}
+.control_icon{
+  padding:0 10px;
+  font-size:35px;    
+  cursor: pointer;
+}
+.container input{
+  text-align: center;
+  border: none;
+  outline:none;
+  padding: 10px 10px;
+  border-radius:5px;
+  font-size:20px;
+}
