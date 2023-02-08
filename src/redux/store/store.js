@@ -11,8 +11,8 @@ const Reducers = combineReducers({
     counter:CounterReducer
 })
 
-const store = configureStore({reducer:Reducers});
+export const store = configureStore({reducer:Reducers});
 
 
 
-export default store;
+// export default store;

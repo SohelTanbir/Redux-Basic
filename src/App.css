@@ -5,10 +5,8 @@ ul li{
   list-style-type: none;
 }
 .container{
-  width:30%;
-  height:80px;
-  margin:5% auto;
-  background:blue;
+  display: flex;
+  justify-content: center;
   color:#fff;
   padding:15px;
   border-radius:10px;
@@ -25,4 +23,9 @@ ul li{
   padding: 10px 10px;
   border-radius:5px;
   font-size:20px;
+  border: 1px solid #ddd;
+}
+p{
+  margin: 0;
+  padding: 0;
 }

@@ -12,13 +12,15 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Redux Counter app - 28/07/2021</h1>
+      <h1>Redux Counter Application </h1>
+      <p>28/07/2021</p>
 
       <div className="container">
-        <span onClick={()=> dispatch(decrement())} className="control_icon">-</span>
+        <button onClick={()=> dispatch(decrement())} className="control_icon">-</button>
+
         <input type="text" value={state.counter.count} readOnly/>
       
-        <span onClick={()=> dispatch(increment())} className="control_icon">+</span>
+        <button onClick={()=> dispatch(increment())} className="control_icon">+</button>
       </div>
      <Welcome/>
     </div>
